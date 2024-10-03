@@ -1,8 +1,3 @@
-/* For this dataset I asked to ChatGPT the following:
-create a downloadable csv dataset with 500 rows of call center company so I can perform some data analysis and cleaning.
-Please include some null, values, duplicated and all of this in a time frame of 1 month, 
-beside that, create another csv dataset called : agent and assign a random first_name, last_name to the Agent_ID? */
-
 -- Data Cleaning
 
 -- Check for duplicate
@@ -102,8 +97,7 @@ SELECT *
 FROM agent_cte
 WHERE row_num > 1;
 
-/* For the EDA process I asked once again to ChatGPT:
-"as a stakeholder what kind of question do I need to check"
+/* EDA:
 I will add the question ChatGPT generated before any query. */
 
 -- 1. Operational Efficiency - How long do calls last?
