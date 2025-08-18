@@ -16,7 +16,7 @@ SELECT *
 FROM duplicate_cte
 WHERE row_num > 1;
 
--- Created a new table and added a new column to clean and mantein the original file untouched.
+-- Created a new table and added a new column to clean and maintain the original file untouched..
 
 CREATE TABLE call_center2 (
   `Call_ID` int DEFAULT NULL,
